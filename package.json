@@ -42,9 +42,6 @@
     "sass": "^1.83.1",
     "vite": "^6.0.5"
   },
-  "engines": {
-    "node": ">=18"
-  },
   "main": "index.js",
   "author": "Mikle Denisenko",
   "license": "MIT"
