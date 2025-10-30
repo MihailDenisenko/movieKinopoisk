@@ -1,8 +1,8 @@
 // Импорты компонентов
-@use './Components/Film/Film.scss';
-@use './Components/Films/Films.scss';
-@use './Components/fonts/fonts.scss';
-@use './Components/Pagination/Pagination.scss';
+@import './Components/Film/Film.scss';
+@import './Components/Films/Films.scss';
+@import './Components/fonts/fonts.scss';
+@import './Components/Pagination/Pagination.scss';
 
 // Базовые стили
 body {
