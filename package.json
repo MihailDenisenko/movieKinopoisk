@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint .",
-    "prettier": "prettier --write src/**/*.*"
+    "prettier": "prettier --write src/**/*.*",
+    "vercel-build": "vite build"
   },
   "dependencies": {
     "@ant-design/icons": "^5.5.2",
@@ -41,6 +41,9 @@
     "prettier": "^3.4.2",
     "sass": "^1.83.1",
     "vite": "^6.0.5"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "main": "index.js",
   "author": "Mikle Denisenko",
