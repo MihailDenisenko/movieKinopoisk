@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useEffect, useRef, useState } from 'react';
 import React from 'react';
 import qs from 'qs';
@@ -9,8 +10,8 @@ import Films from '../Films/Films';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router';
 
-export const HomeContext = React.createContext();
-
+// export const HomeContext = React.createContext();
+// 
 export default function Home() {
   const lang = useSelector((state) => state.langFilter.value);
   const navigate = useNavigate();

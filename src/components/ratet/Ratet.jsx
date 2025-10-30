@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import 'react';
 import { FrownOutlined, MehOutlined, SmileOutlined } from '@ant-design/icons';
 import { Flex, Rate, message } from 'antd';

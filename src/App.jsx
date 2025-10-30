@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './App.scss';
-import Home from './Components/Home/Home';
+import Home from './components/Home/Home';
 import TokenManager from './components/tokenManager/TokenManager';
 import { Offline, Online } from 'react-detect-offline';
 import { Alert, Spin, FloatButton } from 'antd';
