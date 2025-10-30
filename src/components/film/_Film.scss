@@ -1,0 +1,273 @@
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0;
+  max-width: 451px;
+  min-width: 260px;
+  width: 100%;
+  height: 279px;
+  max-height: 279px;
+  margin: 0;
+
+  .col {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .col-loader {
+    width: 100%;
+  }
+  .col:first-child {
+    max-width: 183px;
+  }
+}
+
+.film {
+  height: 100%;
+  position: relative;
+}
+
+.title__img {
+  width: 95%;
+  height: 95%;
+  margin: 5px;
+  padding: 0;
+}
+
+.about {
+  max-height: 279px;
+  overflow: hidden;
+
+  .loadered {
+    padding-top: 200px;
+  }
+
+  .release_date {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #827e7e;
+    text-align: start;
+    margin-left: 10px;
+    line-height: 20px;
+  }
+  .title {
+    position: relative;
+    font-family: 'inter';
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+
+    &__b {
+      max-width: 170px;
+      margin-left: 5px;
+      align-self: center;
+      text-align: center;
+      max-height: 90px;
+      overflow: hidden;
+    }
+  }
+  
+  .vote_average {
+    position: absolute;
+    display: grid;
+    place-items: center; /* Центрирует по обоим осям */
+    padding: 8px;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    right: 0px;
+    border-radius: 50%;
+}
+  .m1 {
+    border: 2px solid #e90000;
+  }
+  .m2 {
+    border: 2px solid #e97e00;
+  }
+  .m3 {
+    border: 2px solid #e9d100;
+  }
+  .m4 {
+    border: 2px solid #66e900;
+  }
+
+  .geners {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: smaller;
+    padding: 5px;
+    margin-bottom: 0;
+
+    &__li {
+      border: 1px #d9d9d9 solid;
+      border-radius: 5px;
+      margin-bottom: 5px;
+      margin-left: 5px;
+      padding: 0 5px;
+      font-size: 12px;
+    }
+    &__li:hover {
+      border: 1px blue solid;
+    }
+  }
+  .overview {
+    font-family: 'inter';
+    text-align: start;
+    max-width: 100%;
+    height: 90px;
+    overflow: hidden;
+    padding: 0 10px 0 15px;
+    font-size: 12px;
+  }
+}
+
+.popularity {
+  position: absolute;
+  bottom: 10px;
+  right: 75px;
+}
+
+.div__draw_title {
+  position: relative;
+
+  .onDraw {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-size: 48px;
+    border-radius: 50%;
+    padding: 8px;
+  }
+  .title__img {
+    width: 100%;
+  }
+  .m1 {
+    color: #e90000;
+    border: 2px solid #e90000;
+  }
+  .m2 {
+    color: #e97e00;
+    border: 2px solid #e97e00;
+  }
+  .m3 {
+    color: #e9d100;
+    border: 2px solid #e9d100;
+  }
+  .m4 {
+    color: #66e900;
+    border: 2px solid #66e900;
+  }
+}
+
+.div__title_draw {
+  text-align: center;
+  margin-bottom: 10px;
+
+  .title__b_draw {
+    font-size: 48px;
+  }
+
+  .geners {
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: smaller;
+    padding: 5px;
+    margin-bottom: 0;
+    text-align: center;
+
+    &__li {
+      border: 1px #d9d9d9 solid;
+      border-radius: 5px;
+      margin-bottom: 5px;
+      margin-left: 5px;
+      padding: 3px 10px;
+      font-size: 18px;
+    }
+    &__li:hover {
+      border: 1px blue solid;
+    }
+  }
+  .overview {
+    margin-top: 15px;
+    font-size: 30px;
+  }
+}
+
+.DrawerClass {
+  width: 700px;
+}
+
+@media screen and (max-width: 460px) {
+  .film {
+    max-width: 451px;
+    min-width: 260px;
+    width: 90%;
+    height: 279px;
+    max-height: 279px;
+    margin: 0;
+  }
+  
+  .title__b {
+    font-size: 18px;
+  }
+
+  .about {
+    .vote_average {
+      top: 5px;
+      right: -13px;
+      border: none;
+    }
+
+    .m1 {
+      color: #e90000;
+    }
+    .m2 {
+      color: #e97e00;
+    }
+    .m3 {
+      color: #e9d100;
+    }
+    .m4 {
+      color: #66e900;
+    }
+
+    .geners {
+      max-height: 45px;
+      overflow: hidden;
+      margin-top: 10px;
+      justify-content: center;
+
+      &__li {
+        margin-left: 0px;
+        padding: 0px 7px;
+        font-size: 10px;
+      }
+      &__li:hover {
+        border: 1px blue solid;
+      }
+    }
+    .overview {
+      padding-left: 5px;
+      padding-right: 0;
+      width: 130px;
+    }
+  }
+  .popularity {
+    position: absolute;
+    bottom: 10px;
+    right: -15px;
+  }
+}
+
+.ratet_bg {
+  background: #00000008;
+}

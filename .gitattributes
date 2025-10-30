@@ -1,0 +1,35 @@
+# Устанавливаем автоматическое преобразование для текстовых файлов
+* text=auto
+
+# Явно указываем какие файлы считать текстовыми
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.css text
+*.scss text
+*.sass text
+*.html text
+*.json text
+*.md text
+*.txt text
+*.yml text
+*.yaml text
+
+# Явно указываем бинарные файлы (без преобразований)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.svg binary
+
+# Для Windows специфичные файлы
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
