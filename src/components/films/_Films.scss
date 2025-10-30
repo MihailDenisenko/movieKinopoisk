@@ -1,0 +1,30 @@
+.films {
+  display: block;
+  max-width: 560px; // Увеличил с 451px
+  width: 100%;
+  min-width: 320px; // Увеличил с 260px
+  height: 320px; // Увеличил высоту
+  margin-top: 20px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
+}
+
+// Остальные стили...
+
+.div__films {
+  margin-bottom: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.error__h1 {
+  font-family: 'errorText';
+  margin: 400px 0;
+  text-align: center;
+  box-shadow: 8px 9px 10px 0 red;
+
+  @media screen and (max-width: 800px) {
+    margin: 150px 0;
+  }
+}
