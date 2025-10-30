@@ -3,7 +3,7 @@ import styles from './Search.module.scss';
 import { CloseOutlined } from '@ant-design/icons';
 import { DownOutlined } from '@ant-design/icons';
 import { Dropdown, Space, Typography } from 'antd';
-import { HomeContext } from '../Home/Home';
+import { HomeContext } from '../Home/HomeContext';
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { filterEn, filterRu } from '../../redux/slices/langFilter';

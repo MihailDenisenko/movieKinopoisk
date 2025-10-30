@@ -2,7 +2,7 @@ import { Button } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
 import React from 'react';
 import styles from './ButtonSearch.module.scss';
-import { HomeContext } from '../Home/Home';
+import { HomeContext } from '../Home/HomeContext';
 import { useKinopoiskApi } from '../../hooks/useKinopoiskApi';
 
 export default function ButtonSearch() {

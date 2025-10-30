@@ -5,7 +5,7 @@ import { Drawer, Flex, Spin } from 'antd';
 import { useState, useEffect } from 'react';
 import { ru } from 'date-fns/locale';
 import Ratet from '../Ratet/Ratet';
-import { HomeContext } from '../Home/Home';
+import { HomeContext } from '../Home/HomeContext';
 import { useSelector } from 'react-redux';
 import { useKinopoiskApi } from '../../hooks/useKinopoiskApi';
 

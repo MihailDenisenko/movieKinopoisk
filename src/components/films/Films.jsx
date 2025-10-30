@@ -3,7 +3,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import Film from '../Film/Film';
 import { Flex, Spin } from 'antd';
 import { useDebounce } from 'use-debounce';
-import { HomeContext } from '../Home/Home';
+import { HomeContext } from '../Home/HomeContext';
 import { useKinopoiskApi } from '../../hooks/useKinopoiskApi';
 
 export default function Films() {

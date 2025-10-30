@@ -3,7 +3,7 @@ import 'react';
 import { FrownOutlined, MehOutlined, SmileOutlined } from '@ant-design/icons';
 import { Flex, Rate, message } from 'antd';
 import styles from './Ratet.module.scss';
-import { HomeContext } from '../Home/Home';
+import { HomeContext } from '../Home/HomeContext';
 import React from 'react';
 import { useKinopoiskApi } from '../../hooks/useKinopoiskApi';
 
