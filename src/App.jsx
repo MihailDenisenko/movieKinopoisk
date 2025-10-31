@@ -1,13 +1,11 @@
 import { useState, useEffect } from 'react';
 import './App.scss';
 import Home from './components/Home/Home';
-import TokenManager from './components/tokenManager/TokenManager';
+import TokenManager from './components/TokenManager/TokenManager'; // ← ИСПРАВЛЕНО
 import { Offline, Online } from 'react-detect-offline';
 import { Alert, Spin, FloatButton } from 'antd';
 import { KeyOutlined, SettingOutlined } from '@ant-design/icons';
-import { useKinopoiskApi } from './hooks/useKinopoiskApi';
-import logo from './Components/img/notInternet.png';
-
+import logo from './components/img/notInternet.png';
 const contentStyle = {
   padding: 50,
   background: 'rgba(0, 0, 0, 0.05)',
