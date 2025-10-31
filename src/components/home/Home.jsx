@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import React from 'react';
 import qs from 'qs';
 import Pagin from '../Pagination/Pagin';
-import Search from '../Search/Search';
+import Search from '../search/Search';
 import ButtonSearch from '../ButtonSearch/ButtonSearch';
 import ButtonRate from '../ButtonRate/ButtonRate';
 import Films from '../Films/Films';
